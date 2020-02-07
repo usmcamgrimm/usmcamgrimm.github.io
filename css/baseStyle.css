@@ -1,0 +1,19 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+hr {
+    background: #505051;
+    width: 60%;
+}
