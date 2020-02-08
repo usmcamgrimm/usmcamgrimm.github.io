@@ -1,19 +1,53 @@
-html {
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
-    background: #f4f4f4;
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
 }
 
-.responsive {
-    max-width: 100%;
+body {
+    background: #f4f4f4;
+    height: 100vh;
+}
+
+.avatar {
+    max-width: 25%;
     height: auto;
     border-radius: 8px;
+}
+
+.photoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    background: #025fa1;
+}
+
+.heroText h1 {
+    text-align: center;
+    font-family: 'Overlock SC';
+    color: #025fa1;
+    font-size: 4rem;
 }
 
 hr {
     background: #505051;
     width: 60%;
+}
+
+.heroDev {
+    background: #393e3f;
+    height: 30vh;
+}
+
+.heroDev h2 {
+    color: #f4f4f4;
+    text-align: center;
+    font-family: 'Comfortaa';
 }
